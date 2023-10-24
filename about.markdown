@@ -4,15 +4,61 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Quicksart Guide
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Install Prerequisites
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+```shell
+ruby -v
+gem -v
+gcc -v
+g++ -v
+make -v
+```
 
+- Install Ruby
 
-[jekyll-organization]: https://github.com/jekyll
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install chruby ruby-install xz
+
+ruby-install ruby
+
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
+echo "chruby ruby-3.1.2" >> ~/.bash_profile
+
+ruby -v
+```
+
+- Install Jekyll and Bundler from gem
+
+```shell
+gem update --system
+gem source -a http://rubygems.org
+gem source --remove https://rubygems.org
+gem install jekyll bundler
+```
+
+- Start a new blog project [Optional]
+
+```shell
+
+jekyll new docs
+cd docs
+bundle exec jekyll serve
+# bundle info --path minima
+```
+
+- Build with incremential option
+
+```shell
+jekyll build --incremental
+```
+
+- Serve with auto-reload option
+
+```shell
+bundle exec jekyll serve --livereload
+```
