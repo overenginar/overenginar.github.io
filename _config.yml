@@ -21,7 +21,7 @@
 title: overenginar blogs
 email: acabukel@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  #generative-ai #llm #nlp #openai #chatgpt #bard #prompt-engineering #web-crawling #huggingface #langchain #streamlit #gradio #chainlit #h2ogpt #h2o-llmstudio #vllm #text-generation-inference #fastapi #transformers #tokenizers #datasets #evaluate #lora #tiktoken #tenacity #tensorflow #pytorch #jax #nvidia #fine-tuning #embedding #vector-databases #faiss #chroma #dall-e #stable-diffusion 
+  #generative-ai #llm #nlp #openai #chatgpt #bard #prompt-engineering #web-crawling #huggingface #langchain #streamlit #gradio #chainlit #h2ogpt #h2o-llmstudio #vllm #text-generation-inference #fastapi #transformers #tokenizers #datasets #evaluate #lora #tiktoken #tenacity #tensorflow #pytorch #jax #nvidia #fine-tuning #embedding #vector-databases #faiss #chroma #dall-e #stable-diffusion #mlops #ci-cd #gcp #cloud-functions #cloud-pubsub #cloud-scheduler #dataproc #bigquery #bqml #vertex-ai #kfp #cloud-build #artifact-registry #docker #github #kubectl #gke #kubernetes #fastapi #flask #h2ogpt #h2o-llm-studio #vllm #gpu #p100 #t4 #compute-engine #cloud-run #ai-job #hyperparameter-tuning #h2o-automl #airflow
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  overenginar
