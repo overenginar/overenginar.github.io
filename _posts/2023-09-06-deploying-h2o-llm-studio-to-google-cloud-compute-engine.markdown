@@ -128,7 +128,7 @@ sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 ```
 
-#### Starting Docker Image
+#### Starting Docker Image
 
 ```shell
 mkdir data
